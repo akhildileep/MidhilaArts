@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            app:itemTextAppearance="@style/Style_TextView"
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            app:itemTextAppearance="@style/Style_TextView"
+            android:id="@+id/nav_courses"
+            android:title="@string/menu_coursed" />
+        <item
+            app:itemTextAppearance="@style/Style_TextView"
+            android:id="@+id/nav_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+
+            app:itemTextAppearance="@style/Style_TextView"
+            android:id="@+id/nav_trans"
+            android:title="@string/menu_trans" />
+        <item
+            app:itemTextAppearance="@style/Style_TextView"
+            android:id="@+id/nav_settings"
+            android:title="@string/menu_settings" />
+        <item
+            app:itemTextAppearance="@style/Style_TextView"
+            android:id="@+id/nav_qa"
+            android:title="@string/menu_faq" />
+
+        <item
+            app:itemTextAppearance="@style/Style_TextView"
+            android:id="@+id/nav_aboutus"
+            android:title="@string/menu_aboutus" />
+    </group>
+</menu>

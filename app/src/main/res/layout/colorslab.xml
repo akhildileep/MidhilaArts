@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginRight="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:id="@+id/recent_search_button"
+        android:textColor="@color/black"
+        android:fontFamily="@font/robotoregular"
+        android:text="test"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:textSize="10sp"
+        android:background="@drawable/black_curve_shape"
+        android:padding="6dp"
+
+        android:layout_height="wrap_content" />
+</LinearLayout>

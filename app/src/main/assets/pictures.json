@@ -1,0 +1,58 @@
+{
+"status": "ok",
+"totalResults": 70,
+"articles": [
+{
+"source": {
+"id":"",
+"name": "Jalopnik.com"
+},
+"author": "Raphael Orlove",
+"title": "F1 Billionaire To Rescue Aston Martin But Pull Back On EVs - Jalopnik",
+"description": "The top news today is probably a giant deal to save Aston Martin, but you should also read about Tesla facing potential delays from wolves and snakes, and I don’t mean metaphorical ones. All that and more in The Morning Shift for Friday, January 31, 2020.",
+"url": "https://jalopnik.com/f1-billionaire-to-rescue-aston-martin-but-pull-back-on-1841380731",
+"urlToImage": "https://i.ibb.co/C5NjSCP/main.png",
+"publishedAt": "2020-01-31T14:20:00Z",
+"content": "The top news today is probably a giant deal to save Aston Martin, but you should also read about Tesla facing potential delays from wolves and snakes, and I dont mean metaphorical ones. All that and more in The Morning Shift for Friday, January 31, 2020.\r\n1st… [+7293 chars]"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Pippa Stevens",
+"title": "Exxon Mobil's fourth-quarter earnings fall short of expectations - CNBC",
+"description": "Exxon Mobil's fourth quarter earnings missed analyst estimates, although revenue came in ahead of expectations.",
+"url": "https://www.cnbc.com/2020/01/31/exxon-mobil-xom-q4-2019-miss-estimates.html",
+"urlToImage": "https://i.ibb.co/ByV9Rs0/main.png",
+"publishedAt": "2020-01-31T12:49:00Z",
+"content": "Exxon earned $5.69 billion in the fourth quarter, down from $6 billion in the same period as weakness in the company's chemicals and downstream divisions, as well as consistently lower oil prices pressured profits.\r\nThe company's quarter was boosted by one-ti… [+2300 chars]"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Peter Schacknow",
+"title": "Stocks making the biggest moves premarket: Caterpillar, Exxon, IBM, Amazon & more - CNBC",
+"description": "These are the stocks posting the largest moves before the bell.",
+"url": "https://www.cnbc.com/2020/01/31/stocks-making-the-biggest-moves-premarket-caterpillar-exxon-ibm-amazon.html",
+"urlToImage": "https://i.ibb.co/sqQNf7w/main.png",
+"publishedAt": "2020-01-31T12:46:00Z",
+"content": "Check out the companies making headlines before the bell:\r\nCaterpillar The heavy equipment maker reported adjusted quarterly earnings of $2.63 per share, beating the consensus estimate of $2.37. However, revenue came in below forecasts, and Caterpillar also i… [+3734 chars]"
+},
+{
+"source": {
+"id": "msnbc",
+"name": "MSNBC"
+},
+"author": "MSNBC.com",
+"title": "What 2019 GDP growth says about Trump's presidency - MSNBC",
+"description": "The U.S. economy grew 2.1 percent in the fourth quarter, closing out a year in which GDP decelerated to its slowest pace in three years. Joe Scarborough discusses why this is significant.",
+"url": "https://www.msnbc.com/morning-joe/watch/what-2019-gdp-growth-says-about-trump-s-presidency-77873221760",
+"urlToImage": "https://media11.s-nbcnews.com/j/MSNBC/Components/Video/202001/n_mj_econ_200131_1920x1080.nbcnews-fp-1200-630.jpg",
+"publishedAt": "2020-01-31T12:34:26Z",
+"content":""
+}
+]
+}

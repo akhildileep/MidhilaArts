@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_packSelect"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:elevation="30dp"
+    android:translationZ="30dp"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    <TextView
+        android:id="@+id/closeBottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:gravity="end"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/robotoregular"
+        android:textStyle="bold"
+        android:text="close" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Basic"
+        android:fontFamily="@font/robotoregular"
+        android:textStyle="bold"
+        android:text="Select Fee Structure" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pricelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/purchaseBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/Basic"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="PURCHASE"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+
+</LinearLayout>

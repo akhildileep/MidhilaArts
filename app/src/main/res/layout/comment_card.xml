@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_margin="12dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/comment_uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:text="Payment Sucesfully"
+            android:textColor="@color/Basic"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/comment_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="left"
+            android:text="Done !"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="5dp"
+            android:id="@+id/comment_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="left"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:text="An amount of rupees 4000 was sucessfully deducted from your account" />
+
+        <ImageView
+            android:id="@+id/comment_image"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/letter_color"
+        />
+
+
+</LinearLayout>

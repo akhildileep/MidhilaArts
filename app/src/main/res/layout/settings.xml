@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Basic"
+    android:orientation="vertical"
+ >
+
+
+    <TextView
+
+        android:textColor="@color/white"
+
+        android:gravity="center"
+        android:text="Settings"
+        android:textSize="20dp"
+        android:fontFamily="@font/robotoregular"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/dot"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Privacy Policy" />
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/dot"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/termsand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Terms and Conditions" />
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/shareApp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Share" />
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/rateUs"
+        android:drawableLeft="@drawable/dot"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Rate Us" />
+
+    <TextView
+
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/feedback"
+        android:drawableLeft="@drawable/dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Feedback" />
+
+    <TextView
+
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/checkUpd"
+        android:drawableLeft="@drawable/dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Check Updates" />
+
+    <TextView
+
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/logout_id"
+        android:drawableLeft="@drawable/dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Logout" />
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_marginTop="58dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   version 1.0" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/watched"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@drawable/card_shape_round"
+        android:elevation="5dp"
+        android:src="@drawable/check" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pack_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/thumb" />
+        </androidx.cardview.widget.CardView>
+
+        <com.wisewolf.midhilaarts.AutoResizeTextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:lines="2"
+            android:text="The Fundamentals of Pencil Drawind"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <com.wisewolf.midhilaarts.AutoResizeTextView
+            android:id="@+id/subHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:text="fundamentals   "
+            android:textColor="@color/letter_color"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "410236644005",
+    "firebase_url": "https://midhila-art.firebaseio.com",
+    "project_id": "midhila-art",
+    "storage_bucket": "midhila-art.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410236644005:android:2c5dd0317916ea53c23b4c",
+        "android_client_info": {
+          "package_name": "com.wisewolf.midhilaarts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410236644005-37jfnt0j445kdm9el2peil7i765md3lo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wisewolf.midhilaarts",
+            "certificate_hash": "b06ce3fefce9db12ef6084014d0a6d8df78bb479"
+          }
+        },
+        {
+          "client_id": "410236644005-rmgreh1mpf8ae4ci8s4b1gdv9q198h5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZKu7hFgj5KI5qzgDhzOIpiIH0uyLbi_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410236644005-rmgreh1mpf8ae4ci8s4b1gdv9q198h5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
