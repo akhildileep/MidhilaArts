@@ -19,27 +19,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activity.FeedbackAct"></activity>
         <activity
-            android:name=".WebAndroid"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".SplashActivity"
-            android:screenOrientation="portrait">
+            android:name=".VimeoSync.VimeoSyncActivity"
+            android:exported="true"
+            android:label="@string/title_activity_vimeo_sync"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity.FeedbackAct" />
+        <activity
+            android:name=".WebAndroid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
         <activity
             android:name=".LoginActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".OTP_Activity"
-            android:screenOrientation="portrait" >
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SignUp"
             android:screenOrientation="portrait"
@@ -64,10 +69,14 @@
         <activity android:name=".Activity.ConfirmPass" />
         <activity android:name=".Activity.ForgotNumber" />
         <activity android:name=".Activity.OTPForgotPass_Activity" />
+        <activity
+            android:name=".Activity.ui.login.LoginAuthActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="com.razorpay.ApiKey"
             android:value="rzp_live_hJSzgrMMNpVah9" />
+
         <service
             android:name=".MyFirebaseMessagingService"
             android:permission="com.google.android.c2dm.permission.SEND">

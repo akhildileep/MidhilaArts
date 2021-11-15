@@ -10,6 +10,10 @@ public class LoginMod{
 	@SerializedName("city")
 	private String city;
 
+
+	@SerializedName("device_token")
+	private String device_token;
+
 	@SerializedName("user_name")
 	private String userName;
 

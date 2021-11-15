@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/MidhilaArts/app/src/main/res/layout-w1240dp/activity_login_auth.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MidhilaArts/app/src/main/res/layout/activity_login.xml" value="0.21354166666666666" />
+        <entry key="..\:/AndroidStudioProjects/MidhilaArts/app/src/main/res/layout/activity_login_auth.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MidhilaArts/app/src/main/res/layout/activity_vimeo_sync3.xml" value="0.18796296296296297" />
+        <entry key="..\:/AndroidStudioProjects/MidhilaArts/app/src/main/res/layout/fee_struct.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/MidhilaArts/app/src/main/res/layout/fragmentmycourse.xml" value="0.18796296296296297" />
+        <entry key="..\:/AndroidStudioProjects/MidhilaArts/app/src/main/res/layout/packindividual.xml" value="0.21354166666666666" />
+      </map>
+    </option>
+  </component>
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
     <option name="effort" value="default" />

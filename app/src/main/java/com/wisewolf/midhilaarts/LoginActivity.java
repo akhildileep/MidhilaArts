@@ -30,8 +30,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.database.annotations.Nullable;
+import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.takusemba.spotlight.OnSpotlightEndedListener;
@@ -180,7 +185,8 @@ public class LoginActivity extends AppCompatActivity {
             case R.id.login:
                 getValues();
                 if (getValues()) {
-                    loginCheck();
+                     loginCheck();
+                   // getSpecificUser();
                 }
                 else {
                     Toast.makeText(this, "Fill all fields", Toast.LENGTH_SHORT).show();
@@ -233,6 +239,37 @@ public class LoginActivity extends AppCompatActivity {
         }catch (Exception ignored){
             String a="";
         }
+    }
+
+    public void getSpecificUser() {
+        //final MutableLiveData<UsersModel> usersData = new MutableLiveData<>();
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("users")
+            .whereEqualTo("mobile_no", Uphone)
+            .addSnapshotListener(new EventListener<QuerySnapshot>() {
+                @Override
+                public void onEvent(@Nullable QuerySnapshot snapshot, @Nullable FirebaseFirestoreException e) {
+
+                    if(e!=null || snapshot.size()==0){
+                        Toast.makeText(LoginActivity.this, "User not found", Toast.LENGTH_SHORT).show();
+                    }
+
+                    for (DocumentChange userDoc : snapshot.getDocumentChanges()) {
+                        LoginMod user = userDoc.getDocument().toObject(LoginMod.class);
+                        String a="";
+
+                      /*  UsersModel user = userDoc.getDocument().toObject(UsersModel.class);
+
+                        if (user.name != null) {
+                            if (userDoc.getType() == DocumentChange.Type.ADDED || userDoc.getType() == DocumentChange.Type.MODIFIED) {
+                                usersData.setValue(user);
+                            }
+                        }*/
+                    }
+                }
+            });
+
+        //return usersData;
     }
 
     private void savedetails(String username, LoginMod logged_user) {
